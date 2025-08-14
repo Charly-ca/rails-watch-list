@@ -1,0 +1,6 @@
+<h1>New review</h1>
+<%= simple_form_for [@list, @bookmark] do |f| %>
+  <%= f.association :movie %>   <!-- liste déroulante des films -->
+  <%= f.input :comment %>       <!-- zone texte -->
+  <%= f.submit "Submit review", class: "btn btn-primary" %>
+<% end %>
