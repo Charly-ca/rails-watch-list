@@ -1,0 +1,33 @@
+.card-category {
+  margin-bottom: 20px;
+
+  .card-background {
+    width: 300px;   // carré
+    height: 300px;  // carré
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;  // pour mettre le titre en bas
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .card-title {
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 0;
+    }
+  }
+
+  .delete-btn {
+    display: block;
+    margin-top: 5px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
